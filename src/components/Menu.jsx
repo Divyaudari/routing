@@ -1,20 +1,19 @@
 import React from 'react'
-
+import Styles from "./navabr.module.css";
+import {Link} from "react-router-dom"
 const Menu = () => {
   return (
-    <div className={StyleSheet.menuBlock}>
+    <div className={Styles.menuBlock}>
         <ul>
-            <li><a href=''></a></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            
-            
-            
-            </ul></div>
+            <li><Link to="/">Dashboard</Link></li>
+            <li><Link to="/classroom">Classrooms</Link></li>
+            <li><Link to="/assessment">Assessments</Link></li>
+            <li><Link to="/store">Store</Link></li>
+            <li><Link to="/calender">Calender</Link></li>
+            <li><Link to="/news">News</Link></li>
+            <li><Link to="/blog">Blog</Link></li>
+        </ul>
+    </div>
   )
 }
 
