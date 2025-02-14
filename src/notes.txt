@@ -10,3 +10,17 @@ Routing in react:-
 7 - major version
 1 - minor version
 5 - patch version
+
+CRUD Operations:-
+c-create(post)
+r-read(get)
+u-update(put)
+d-delete(delete)
+
+https:-hyper text transfer protocol secured(data is transfered in encrypted form)
+http,smtp,ftp,tcp,ip.....
+
+
+server is supercomputer which is continuously on and can respond to clients requests
+
+json-server --watch users.json --port=8000
